@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - msgpack
+    - msgpack-python
 
 test:
   imports:
