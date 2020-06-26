@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - msgpack-python >=1.0.0
+    - fastavro
 
 test:
   imports:
