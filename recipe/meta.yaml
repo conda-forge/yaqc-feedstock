@@ -1,6 +1,6 @@
 {% set name = "yaqc" %}
-{% set version = "2020.7.2" %}
-{% set sha256 = "2110c422e66c0f286b662fd1d9456dfb6113a6443a74778641c79c5ddf6a7533" %}
+{% set version = "2020.7.3" %}
+{% set sha256 = "5500e89a3279b3095bb27363dec069259b02e158819a62a27c39591ca43f7e57" %}
 
 package:
   name: {{ name|lower }}
@@ -19,11 +19,11 @@ requirements:
   host:
     - python >=3.7
     - pip
-    - fastavro
+    - fastavro >=0.24.0
     - flit
   run:
     - python >=3.7
-    - fastavro
+    - fastavro >=0.24.0
 
 test:
   imports:
