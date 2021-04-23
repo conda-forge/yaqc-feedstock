@@ -19,11 +19,11 @@ requirements:
   host:
     - python >=3.7
     - pip
-    - fastavro >=0.24.0
+    - fastavro >=1.4.0
     - flit
   run:
     - python >=3.7
-    - fastavro >=0.24.0
+    - fastavro >=1.4.0
 
 test:
   imports:
