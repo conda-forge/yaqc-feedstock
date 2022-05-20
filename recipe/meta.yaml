@@ -1,6 +1,6 @@
 {% set name = "yaqc" %}
-{% set version = "2022.4.0" %}
-{% set sha256 = "b8293d986de12ed986f539d276451d16d6700f37fa4390999a71209ba53cbfed" %}
+{% set version = "2022.5.0" %}
+{% set sha256 = "6c4ed6da563075957c5d058d0a97fcb66032364b9cf2d07364534876bd308227" %}
 
 package:
   name: {{ name|lower }}
