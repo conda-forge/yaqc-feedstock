@@ -20,7 +20,7 @@ requirements:
     - python >=3.7
     - pip
     - fastavro >=1.4.0
-    - flit
+    - hatchling
   run:
     - python >=3.7
     - fastavro >=1.4.0
