@@ -1,6 +1,6 @@
 {% set name = "yaqc" %}
-{% set version = "2022.5.0" %}
-{% set sha256 = "6c4ed6da563075957c5d058d0a97fcb66032364b9cf2d07364534876bd308227" %}
+{% set version = "2023.6.0" %}
+{% set sha256 = "7829527c858884445bed75b53e31a0d4360dea1daf1c95306786b71915bfda7b" %}
 
 package:
   name: {{ name|lower }}
@@ -20,7 +20,7 @@ requirements:
     - python >=3.7
     - pip
     - fastavro >=1.4.0
-    - flit
+    - hatchling
   run:
     - python >=3.7
     - fastavro >=1.4.0

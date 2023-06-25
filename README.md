@@ -1,11 +1,11 @@
-About yaqc
-==========
+About yaqc-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/yaqc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://yaq.fyi
 
 Package license: LGPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/yaqc-feedstock/blob/main/LICENSE.txt)
 
 Summary: Generic yaq client, written in Python.
 
